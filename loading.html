@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>loading</title>
+</head>
+<body>
+	<script src="http://cdn.bootcss.com/jquery/1.12.0/jquery.js"></script>
+	<script src="js/loading.js"></script>
+	<script>
+		util.loading('loading....');
+
+		setTimeout(function(){
+			util.loadingHide();
+		},1500)
+	</script>
+</body>
+</html>
